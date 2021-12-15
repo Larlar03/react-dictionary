@@ -1,3 +1,15 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+main {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: colummn nowrap;
+  justify-content: center;
+}
 footer {
   text-align: center;
 }

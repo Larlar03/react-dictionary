@@ -1,0 +1,8 @@
+.Dictionary {
+  width: 70%;
+}
+
+form {
+  display: flex;
+  flex-flow: row nowrap;
+}
