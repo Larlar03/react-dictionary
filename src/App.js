@@ -8,7 +8,7 @@ function App() {
       <main>
         <Dictionary />
       </main>
-      <footer>Coded by lana Gordon</footer>
+      <footer>Coded by Lana Gordon</footer>
     </div>
   );
 }
