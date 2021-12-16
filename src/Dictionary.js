@@ -23,16 +23,19 @@ export default function Search() {
 
   return (
     <div className="Dictionary">
-      <form onSubmit={search}>
-        <input
-          type="search"
-          onChange={updateKeyword}
-          className="form-control"
-        />
-        <button type="submit" className="btn btn-primary">
-          Submit
-        </button>
-      </form>
+      <section>
+        <form onSubmit={search}>
+          <input
+            type="search"
+            onChange={updateKeyword}
+            className="form-control"
+          />
+          <button type="submit" className="btn btn-primary">
+            Submit
+          </button>
+        </form>
+      </section>
+
       <SearchResults results={results} />
     </div>
   );
