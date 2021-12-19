@@ -11,7 +11,16 @@ function App() {
       <main>
         <Dictionary defaultKeyword="dusk" />
       </main>
-      <footer>Coded by Lana Gordon</footer>
+      <footer>
+        <a
+          href="https://github.com/Larlar03/react-dictionary"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Open-source code
+        </a>{" "}
+        by Lana Gordon
+      </footer>
     </div>
   );
 }
