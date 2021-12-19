@@ -1,5 +1,4 @@
 import React from "react";
-import { Profiler } from "react/cjs/react.production.min";
 import "./Photos.css";
 
 export default function Photos(props) {
@@ -11,13 +10,12 @@ export default function Photos(props) {
             {props.photos.map(function (photo, index) {
               return (
                 <div className="col-4" key={index}>
-                  <a
-                    href={photo.src.original}
-                    target="_blank"
-                    rel="noreferrer"
-                    alt={photo.alt}
-                  >
-                    <img src={photo.src.landscape} className="img-fluid" />
+                  <a href={photo.src.original} target="_blank" rel="noreferrer">
+                    <img
+                      src={photo.src.landscape}
+                      className="img-fluid"
+                      alt={photo.alt}
+                    />
                   </a>
                 </div>
               );
