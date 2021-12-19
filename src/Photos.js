@@ -1,4 +1,5 @@
 import React from "react";
+import { Profiler } from "react/cjs/react.production.min";
 import "./Photos.css";
 
 export default function Photos(props) {
@@ -14,7 +15,7 @@ export default function Photos(props) {
                     href={photo.src.original}
                     target="_blank"
                     rel="noreferrer"
-                    alt="Image related to the word"
+                    alt={photo.alt}
                   >
                     <img src={photo.src.landscape} className="img-fluid" />
                   </a>
