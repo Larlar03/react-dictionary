@@ -1,15 +1,40 @@
+body {
+  background: #fcf2ed;
+  color: #212529;
+}
+
+.App {
+  padding: 30px 0 100px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 .container {
   width: 100%;
   margin: 0 auto;
 }
 
-main {
-  width: 70%;
-  margin: 0 auto;
-  display: flex;
-  flex-flow: colummn nowrap;
-  justify-content: center;
+.app-header {
+  margin: 30px 0;
+  text-align: center;
 }
+h1 {
+  font-weight: bold;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+a {
+  color: #f58f29;
+}
+
+a:hover {
+  color: #18a999;
+}
+
 footer {
   text-align: center;
 }
